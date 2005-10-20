@@ -1,12 +1,12 @@
 Summary:	XCMisc protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u XCMisc i pomocnicze
 Name:		xorg-proto-xcmiscproto
-Version:	1.1
-Release:	0.02
+Version:	1.1.1
+Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/X11R7.0-RC0/proto/xcmiscproto-%{version}.tar.bz2
-# Source0-md5:	4ca773736b114e159969acac2217a347
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/proto/xcmiscproto-%{version}.tar.bz2
+# Source0-md5:	e3e6ee6862982f2b2d7a0fc7f483869e
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -24,6 +24,8 @@ Nag³ówki protoko³u XCMisc i pomocnicze.
 Summary:	XCMisc protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u XCMisc i pomocnicze
 Group:		X11/Development/Libraries
+# just for dirs
+Requires:	xorg-proto-xproto-devel
 
 %description devel
 XCMisc protocol and ancillary headers.
