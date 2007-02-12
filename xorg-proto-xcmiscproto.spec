@@ -1,5 +1,5 @@
 Summary:	XCMisc protocol and ancillary headers
-Summary(pl):	Nag丑wki protoko硊 XCMisc i pomocnicze
+Summary(pl.UTF-8):   Nag艂贸wki protoko艂u XCMisc i pomocnicze
 Name:		xorg-proto-xcmiscproto
 Version:	1.1.2
 Release:	1
@@ -16,12 +16,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XCMisc protocol and ancillary headers.
 
-%description -l pl
-Nag丑wki protoko硊 XCMisc i pomocnicze.
+%description -l pl.UTF-8
+Nag艂贸wki protoko艂u XCMisc i pomocnicze.
 
 %package devel
 Summary:	XCMisc protocol and ancillary headers
-Summary(pl):	Nag丑wki protoko硊 XCMisc i pomocnicze
+Summary(pl.UTF-8):   Nag艂贸wki protoko艂u XCMisc i pomocnicze
 Group:		X11/Development/Libraries
 # just for dirs
 Requires:	xorg-proto-xproto-devel
@@ -29,8 +29,8 @@ Requires:	xorg-proto-xproto-devel
 %description devel
 XCMisc protocol and ancillary headers.
 
-%description devel -l pl
-Nag丑wki protoko硊 XCMisc i pomocnicze.
+%description devel -l pl.UTF-8
+Nag艂贸wki protoko艂u XCMisc i pomocnicze.
 
 %prep
 %setup -q -n xcmiscproto-%{version}
