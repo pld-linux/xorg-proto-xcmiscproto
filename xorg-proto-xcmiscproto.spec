@@ -1,5 +1,5 @@
 Summary:	XCMisc protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu XCMisc i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu XCMisc i pomocnicze
 Name:		xorg-proto-xcmiscproto
 Version:	1.1.2
 Release:	1
@@ -21,7 +21,7 @@ Nagłówki protokołu XCMisc i pomocnicze.
 
 %package devel
 Summary:	XCMisc protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu XCMisc i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu XCMisc i pomocnicze
 Group:		X11/Development/Libraries
 # just for dirs
 Requires:	xorg-proto-xproto-devel
