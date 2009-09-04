@@ -5,7 +5,7 @@ Version:	1.1.2
 Release:	2
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/xcmiscproto-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/archive/individual/proto/xcmiscproto-%{version}.tar.bz2
 # Source0-md5:	fde0b050901f024b19159cdacdcfbd20
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
