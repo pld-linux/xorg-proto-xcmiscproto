@@ -1,12 +1,12 @@
 Summary:	XCMisc protocol and ancillary headers
 Summary(pl.UTF-8):	Nagłówki protokołu XCMisc i pomocnicze
 Name:		xorg-proto-xcmiscproto
-Version:	1.1.2
-Release:	2
+Version:	1.2.0
+Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/archive/individual/proto/xcmiscproto-%{version}.tar.bz2
-# Source0-md5:	fde0b050901f024b19159cdacdcfbd20
+# Source0-md5:	7b83e4a7e9f4edc9c6cfb0500f4a7196
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
