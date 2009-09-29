@@ -1,5 +1,5 @@
-Summary:	XCMisc protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu XCMisc i pomocnicze
+Summary:	XCMisc extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia XCMisc
 Name:		xorg-proto-xcmiscproto
 Version:	1.2.0
 Release:	1
@@ -10,27 +10,27 @@ Source0:	http://xorg.freedesktop.org/archive/individual/proto/xcmiscproto-%{vers
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
-BuildRequires:	xorg-util-util-macros
+BuildRequires:	xorg-util-util-macros >= 1.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-XCMisc protocol and ancillary headers.
+XCMisc extension headers.
 
 %description -l pl.UTF-8
-Nagłówki protokołu XCMisc i pomocnicze.
+Nagłówki rozszerzenia XCMisc.
 
 %package devel
-Summary:	XCMisc protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu XCMisc i pomocnicze
+Summary:	XCMisc extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia XCMisc
 Group:		X11/Development/Libraries
 # just for dirs
 Requires:	xorg-proto-xproto-devel
 
 %description devel
-XCMisc protocol and ancillary headers.
+XCMisc extension headers.
 
 %description devel -l pl.UTF-8
-Nagłówki protokołu XCMisc i pomocnicze.
+Nagłówki rozszerzenia XCMisc.
 
 %prep
 %setup -q -n xcmiscproto-%{version}
@@ -56,5 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog
-%{_includedir}/X11/extensions/*.h
+%{_includedir}/X11/extensions/xcmisc*.h
 %{_pkgconfigdir}/xcmiscproto.pc
