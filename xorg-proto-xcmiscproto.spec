@@ -2,7 +2,7 @@ Summary:	XCMisc extension headers
 Summary(pl.UTF-8):	Nagłówki rozszerzenia XCMisc
 Name:		xorg-proto-xcmiscproto
 Version:	1.2.2
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/archive/individual/proto/xcmiscproto-%{version}.tar.bz2
